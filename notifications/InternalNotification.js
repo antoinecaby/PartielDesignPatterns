@@ -4,7 +4,7 @@ class InternalNotification {
   }
 
   send(message) {
-    console.log(`[INTERNAL] -> équipe ${this.equipe} : ${message}`);
+    console.log(`[Notification Interne] -> équipe ${this.equipe} : ${message}`);
   }
 }
 
